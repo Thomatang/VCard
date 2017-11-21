@@ -11,7 +11,7 @@
    body {
      margin: 0;
      padding:0;
-     background-image: url(mesmerizing-sunsets-9.jpg);
+     background: url("mesmerizing-sunsets-9.jpg");
      background-size: cover;
    }
 
