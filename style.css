@@ -1,0 +1,67 @@
+ /*#004384 or rgb(0,67,132) midnight blue HEX code */
+ /*#f6c52a or rgb(246,197,42) golen yellow color */
+
+
+ .resize {
+     width: 200px;
+     height: auto;
+     border-radius: 50%;
+   }
+
+   body {
+     margin: 0;
+     padding:0;
+     background-image: url(/home/tpaparazzo/becode_projects/VCard/images/mesmerizing-sunsets-9.jpg);
+     background-size: cover;
+   }
+
+   .box{
+     width: 450px;
+     background: rgba(246,197,42,0.5); /* golden yellow */
+     padding: 40px;
+     text-align: center;
+     margin: auto;
+     margin-top 5%;
+     color: #004384; /*midnight blue */
+     font-family: 'Vollkorn SC', serif;
+
+   }
+
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5 {
+
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.box p{
+  text-align: center;
+}
+
+ul{
+  margin:0;
+  padding:0;
+
+}
+
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.box li a{
+  color: rgba(0,67,132,0.9);
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.box li a:hover{
+    color: rgba(246,197,42,0.5);
+
+}
